@@ -378,7 +378,7 @@ public class Main {
         for (int i = 0; i < initial.length; i++) {
             for (int j = 0; j < initial[i].length; j++) {
                 int value = rand.nextInt(0,10);
-                if (value <2){
+                if (value <4){
                     initial[i][j] = 1;
                 }
             }
